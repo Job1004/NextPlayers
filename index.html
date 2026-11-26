@@ -46,6 +46,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:cen
 .kakao-btn{display:inline-flex;align-items:center;gap:7px;background:#FEE500;color:#3A1D1D;padding:10px 20px;border-radius:8px;font-weight:700;font-size:.88rem;border:none;cursor:pointer;font-family:inherit;transition:transform .15s}
 .kakao-btn:hover{transform:translateY(-1px)}
 .copy-btn{display:inline-flex;align-items:center;gap:7px;background:rgba(255,255,255,.12);color:#fff;padding:10px 18px;border-radius:8px;font-weight:600;font-size:.88rem;border:1px solid rgba(255,255,255,.25);cursor:pointer;font-family:inherit}
+.hero-photo{margin:0;border-radius:var(--radius);overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.4);background:#0f233c;border:1px solid rgba(255,255,255,.12)}.hero-photo img{display:block;width:100%;height:auto}.hero-photo figcaption{padding:10px 16px;color:rgba(255,255,255,.85);font-size:.85rem;font-weight:600;background:rgba(10,20,40,.75);letter-spacing:.02em}
 .hero-mosaic{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:180px 180px;gap:10px;border-radius:var(--radius);overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.4)}
 .m-img{background-size:cover;background-position:center;transition:transform .4s}.m-img:hover{transform:scale(1.04)}
 .m-img:first-child{grid-row:span 2;background-image:url('https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&h=400&fit=crop&q=80')}
@@ -205,11 +206,10 @@ footer{background:#0a1e30;color:rgba(255,255,255,.65);padding:56px 5% 30px}
         <button class="copy-btn" onclick="copyLink()">🔗 링크 복사</button>
       </div>
     </div>
-    <div class="hero-mosaic">
-      <div class="m-img"></div>
-      <div class="m-img"></div>
-      <div class="m-img"></div>
-    </div>
+    <figure class="hero-photo">
+      <img src="hero-group.jpg" alt="2026 넥스트플레이어스 발기인총회 단체사진 (2026.11.7.)" width="1400" height="599">
+      <figcaption>2026. 11. 7. 넥스트플레이어스 발기인총회</figcaption>
+    </figure>
   </div>
   <div class="share-bar">
     <span class="share-bar-label">📣 주변 선수·관계자에게 알려주세요</span>
