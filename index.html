@@ -4,7 +4,22 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>넥스트플레이어스 | Athletes Beyond the Game</title>
-<meta name="description" content="엘리트 선수의 제2·제3의 직업을 지원하는 넥스트플레이어스 설립 추진위원회입니다.">
+<meta name="description" content="은퇴 체육인의 제2·제3의 직업을 함께 설계합니다. 진로 탐색부터 교육·자격·취업 연계까지, 넥스트플레이어스가 함께합니다.">
+<link rel="canonical" href="https://job1004.github.io/NextPlayers/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="넥스트플레이어스">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:url" content="https://job1004.github.io/NextPlayers/">
+<meta property="og:title" content="넥스트플레이어스 | 선수의 도전은 은퇴 후에도 계속됩니다">
+<meta property="og:description" content="은퇴 체육인의 제2·제3의 직업을 함께 설계합니다. 진로 탐색부터 교육·자격·취업 연계까지, 넥스트플레이어스가 함께합니다.">
+<meta property="og:image" content="https://job1004.github.io/NextPlayers/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="넥스트플레이어스 - 은퇴 체육인 진로·직업전환 지원">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="넥스트플레이어스 | 선수의 도전은 은퇴 후에도 계속됩니다">
+<meta name="twitter:description" content="은퇴 체육인의 제2·제3의 직업을 함께 설계합니다. 진로 탐색부터 교육·자격·취업 연계까지, 넥스트플레이어스가 함께합니다.">
+<meta name="twitter:image" content="https://job1004.github.io/NextPlayers/og-image.png">
 <script src="https://t1.kakaocdn.net/kakao_js_sdk/2.7.2/kakao.min.js" integrity="sha384-TiCUE00h649CAMonG018J2ujOgDKW/kVWlChEuu4jK2vxfAAD0eZxzCKakxg55G4" crossorigin="anonymous"></script>
 <style>
 :root{--blue-dark:#1F4E79;--blue-mid:#2E75B6;--blue-light:#BDD7EE;--gold:#C9A84C;--gray-dark:#2D2D2D;--gray:#666;--gray-light:#F5F7FA;--white:#fff;--radius:14px;--shadow:0 4px 28px rgba(31,78,121,.10)}
@@ -427,7 +442,7 @@ function playVideo() {
 
 function shareKakao() {
   if (typeof Kakao==='undefined'||!Kakao.isInitialized()) { alert('링크 복사 버튼을 이용해 주세요.'); return; }
-  Kakao.Share.sendDefault({ objectType:'feed', content:{ title:'넥스트플레이어스', description:'연간 3,000명 은퇴 선수의 제2커리어를 지원합니다.', imageUrl:'https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=800&h=400&fit=crop&q=80', link:{mobileWebUrl:location.href,webUrl:location.href} }, buttons:[{title:'🏃 선수 사전등록',link:{mobileWebUrl:location.href+'#join',webUrl:location.href+'#join'}},{title:'🤝 기업 파트너 문의',link:{mobileWebUrl:location.href+'#join',webUrl:location.href+'#join'}}] });
+  Kakao.Share.sendDefault({ objectType:'feed', content:{ title:'넥스트플레이어스', description:'선수의 도전은 은퇴 후에도 계속됩니다. 은퇴 체육인의 제2커리어를 지원합니다.', imageUrl:new URL('og-image.png', location.href).href, link:{mobileWebUrl:location.href,webUrl:location.href} }, buttons:[{title:'🏃 선수 사전등록',link:{mobileWebUrl:location.href+'#join',webUrl:location.href+'#join'}},{title:'🤝 기업 파트너 문의',link:{mobileWebUrl:location.href+'#join',webUrl:location.href+'#join'}}] });
 }
 
 function copyLink() {
