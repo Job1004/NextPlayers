@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>넥스트플레이어스 | Athletes Beyond the Game</title>
+<meta name="description" content="은퇴 체육인의 제2·제3의 직업을 함께 설계합니다. 진로 탐색부터 교육·자격·취업 연계까지, 넥스트플레이어스가 함께합니다.">
+<link rel="canonical" href="https://www.xn--b60bq4k1zjba330b16c0z3aiie.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="넥스트플레이어스">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:url" content="https://www.xn--b60bq4k1zjba330b16c0z3aiie.com/">
+<meta property="og:title" content="넥스트플레이어스 | 선수의 도전은 은퇴 후에도 계속됩니다">
+<meta property="og:description" content="은퇴 체육인의 제2·제3의 직업을 함께 설계합니다. 진로 탐색부터 교육·자격·취업 연계까지, 넥스트플레이어스가 함께합니다.">
+<meta property="og:image" content="https://www.xn--b60bq4k1zjba330b16c0z3aiie.com/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="넥스트플레이어스 - 은퇴 체육인 진로·직업전환 지원">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="넥스트플레이어스 | 선수의 도전은 은퇴 후에도 계속됩니다">
+<meta name="twitter:description" content="은퇴 체육인의 제2·제3의 직업을 함께 설계합니다. 진로 탐색부터 교육·자격·취업 연계까지, 넥스트플레이어스가 함께합니다.">
+<meta name="twitter:image" content="https://www.xn--b60bq4k1zjba330b16c0z3aiie.com/og-image.png">
+<script src="https://t1.kakaocdn.net/kakao_js_sdk/2.7.2/kakao.min.js" integrity="sha384-TiCUE00h649CAMonG018J2ujOgDKW/kVWlChEuu4jK2vxfAAD0eZxzCKakxg55G4" crossorigin="anonymous"></script>
+<style>
+:root{--blue-dark:#1F4E79;--blue-mid:#2E75B6;--blue-light:#BDD7EE;--gold:#C9A84C;--gray-dark:#2D2D2D;--gray:#666;--gray-light:#F5F7FA;--white:#fff;--radius:14px;--shadow:0 4px 28px rgba(31,78,121,.10)}
+*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}
+body{font-family:'Apple SD Gothic Neo','Noto Sans KR',sans-serif;color:var(--gray-dark);background:var(--white);line-height:1.7}
+nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:center;justify-content:space-between;padding:0 5%;height:64px;background:rgba(15,35,60,.95);backdrop-filter:blur(10px);box-shadow:0 2px 20px rgba(0,0,0,.2)}
+.nav-logo{color:#fff;font-size:1.1rem;font-weight:800}.nav-logo span{color:var(--gold)}
+.nav-links{display:flex;gap:1.6rem}.nav-links a{color:rgba(255,255,255,.8);text-decoration:none;font-size:.88rem;transition:color .2s}.nav-links a:hover{color:var(--gold)}
+.nav-cta{background:var(--gold);color:var(--blue-dark);padding:8px 20px;border-radius:20px;font-size:.85rem;font-weight:700;text-decoration:none}
+@media(max-width:1100px){.nav-links{gap:1.1rem}.nav-links a{font-size:.82rem}}
+@media(max-width:768px){.nav-links{display:none}}
+#hero{position:relative;min-height:100vh;display:flex;flex-direction:column;background:#0a1e30;padding-top:64px;overflow:hidden}
+.hero-bg{position:absolute;inset:0;background:url('https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=1600&h=900&fit=crop&q=80') center/cover no-repeat;opacity:.38}
+.hero-overlay{position:absolute;inset:0;background:linear-gradient(135deg,rgba(10,20,40,.85) 0%,rgba(31,78,121,.70) 60%,rgba(46,117,182,.50) 100%)}
+.hero-content{position:relative;z-index:2;flex:1;display:grid;grid-template-columns:1fr 1.7fr;gap:44px;align-items:center;max-width:1400px;margin:0 auto;width:100%;padding:80px 5% 60px}
+@media(max-width:1199px){.hero-content{grid-template-columns:1fr 1.2fr;gap:36px}}
+@media(max-width:768px){.hero-content{grid-template-columns:1fr;padding:60px 5% 40px;gap:32px}}
+.hero-badge{display:inline-block;background:rgba(201,168,76,.2);border:1px solid var(--gold);color:var(--gold);padding:5px 14px;border-radius:20px;font-size:.78rem;font-weight:700;letter-spacing:.06em;margin-bottom:18px}
+.hero-title{color:#fff;font-size:clamp(2rem,4vw,3.1rem);font-weight:900;line-height:1.15;margin-bottom:18px}
+.hero-title em{color:var(--gold);font-style:normal}
+.hero-sub{color:rgba(255,255,255,.82);font-size:1.05rem;margin-bottom:32px;line-height:1.75}
+.hero-btns{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:20px}
+.btn-primary{background:var(--gold);color:var(--blue-dark);padding:13px 30px;border-radius:8px;font-weight:700;text-decoration:none;font-size:.95rem;transition:transform .15s,box-shadow .15s;display:inline-block}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(201,168,76,.4)}
+.btn-secondary{background:transparent;color:#fff;padding:13px 28px;border-radius:8px;font-weight:600;text-decoration:none;font-size:.95rem;border:2px solid rgba(255,255,255,.5);display:inline-block}
+.kakao-btn{display:inline-flex;align-items:center;gap:7px;background:#FEE500;color:#3A1D1D;padding:10px 20px;border-radius:8px;font-weight:700;font-size:.88rem;border:none;cursor:pointer;font-family:inherit;transition:transform .15s}
+.kakao-btn:hover{transform:translateY(-1px)}
+.copy-btn{display:inline-flex;align-items:center;gap:7px;background:rgba(255,255,255,.12);color:#fff;padding:10px 18px;border-radius:8px;font-weight:600;font-size:.88rem;border:1px solid rgba(255,255,255,.25);cursor:pointer;font-family:inherit}
+.hero-photo{margin:0;border-radius:var(--radius);overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.4);background:#0f233c;border:1px solid rgba(255,255,255,.12)}.hero-photo img{display:block;width:100%;height:auto}.hero-photo figcaption{padding:12px 18px;color:rgba(255,255,255,.85);font-size:.85rem;font-weight:600;background:rgba(10,20,40,.75);letter-spacing:.02em}
+.hero-mosaic{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:180px 180px;gap:10px;border-radius:var(--radius);overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.4)}
+.m-img{background-size:cover;background-position:center;transition:transform .4s}.m-img:hover{transform:scale(1.04)}
+.m-img:first-child{grid-row:span 2;background-image:url('https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&h=400&fit=crop&q=80')}
+.m-img:nth-child(2){background-image:url('https://images.unsplash.com/photo-1530549387789-4c1017266635?w=400&h=200&fit=crop&q=80')}
+.m-img:nth-child(3){background-image:url('https://images.unsplash.com/photo-1546519638-68e109498ffc?w=400&h=200&fit=crop&q=80')}
+.share-bar{position:relative;z-index:2;background:rgba(0,0,0,.3);border-top:1px solid rgba(255,255,255,.1);display:flex;align-items:center;justify-content:center;gap:14px;padding:16px 5%;flex-wrap:wrap}
+.share-bar-label{color:rgba(255,255,255,.7);font-size:.875rem}
+.hero-stats{position:relative;z-index:2;background:rgba(255,255,255,.06);border-top:1px solid rgba(255,255,255,.1);display:grid;grid-template-columns:repeat(4,1fr)}
+@media(max-width:600px){.hero-stats{grid-template-columns:repeat(2,1fr)}}
+.hero-stat{padding:24px 20px;text-align:center;border-right:1px solid rgba(255,255,255,.08)}.hero-stat:last-child{border-right:none}
+.hero-stat .num{font-size:1.9rem;font-weight:900;color:var(--gold)}.hero-stat .lbl{font-size:.78rem;color:rgba(255,255,255,.65);margin-top:3px}
+section{padding:88px 5%}.sec-inner{max-width:1140px;margin:0 auto}
+.sec-tag{color:var(--blue-mid);font-size:.78rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:10px}
+.sec-title{font-size:clamp(1.55rem,3vw,2.2rem);font-weight:900;color:var(--blue-dark);margin-bottom:14px;line-height:1.2}
+.sec-desc{color:var(--gray);font-size:1rem;max-width:620px;line-height:1.75}
+#sports{background:var(--gray-light)}
+.sports-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:16px;margin-top:48px}
+.sport-card{border-radius:var(--radius);overflow:hidden;position:relative;box-shadow:var(--shadow);transition:transform .25s,box-shadow .25s}
+.sport-card:hover{transform:translateY(-6px);box-shadow:0 12px 36px rgba(31,78,121,.18)}
+.sport-img{height:180px;background-size:cover;background-position:center;transition:transform .4s}.sport-card:hover .sport-img{transform:scale(1.07)}
+.sport-info{background:#fff;padding:14px 16px}.sport-info h3{font-size:.92rem;font-weight:700;color:var(--blue-dark);margin-bottom:3px}.sport-info p{font-size:.78rem;color:var(--gray);line-height:1.5}
+.s-badge{position:absolute;top:10px;left:10px;background:rgba(31,78,121,.85);color:#fff;font-size:.7rem;font-weight:700;padding:4px 10px;border-radius:12px}
+#journey{background:#fff}
+.journey-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:52px;position:relative}
+.journey-steps::before{content:'';position:absolute;top:100px;left:16.67%;right:16.67%;height:3px;background:linear-gradient(90deg,var(--blue-mid),var(--gold));z-index:0}
+@media(max-width:768px){.journey-steps{grid-template-columns:1fr;gap:28px}.journey-steps::before{display:none}}
+.j-step{text-align:center;padding:0 20px;position:relative;z-index:1}
+.j-img-wrap{width:200px;height:200px;border-radius:50%;overflow:hidden;margin:0 auto 20px;border:5px solid var(--white);box-shadow:0 8px 32px rgba(31,78,121,.18);position:relative}
+.j-img-wrap img{width:100%;height:100%;object-fit:cover}
+.j-num{position:absolute;top:-4px;right:0;width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.85rem;font-weight:800;color:#fff}
+.j-num.n1{background:var(--blue-mid)}.j-num.n2{background:var(--gold);color:var(--blue-dark)}.j-num.n3{background:#2E8B57}
+.j-step h3{font-size:1.05rem;font-weight:800;color:var(--blue-dark);margin-bottom:8px}
+.j-step p{font-size:.875rem;color:var(--gray);line-height:1.65;max-width:220px;margin:0 auto}
+#video-section{background:var(--blue-dark)}
+#video-section .sec-tag{color:var(--gold)}#video-section .sec-title{color:#fff}
+.video-wrap{margin-top:40px;display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+@media(max-width:768px){.video-wrap{grid-template-columns:1fr}}
+.yt-container{position:relative;border-radius:var(--radius);overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,.4);background:#000;aspect-ratio:16/9}
+.yt-facade{position:absolute;inset:0;cursor:pointer;display:flex;align-items:center;justify-content:center;background:url('https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&h=450&fit=crop&q=80') center/cover}
+.yt-facade::before{content:'';position:absolute;inset:0;background:rgba(0,0,0,.4)}
+.yt-play{position:relative;z-index:1;width:72px;height:72px;border-radius:50%;background:rgba(255,255,255,.95);display:flex;align-items:center;justify-content:center;transition:transform .2s;box-shadow:0 4px 24px rgba(0,0,0,.3)}
+.yt-play:hover{transform:scale(1.1)}.yt-play svg{margin-left:4px}
+.yt-facade .yt-label{position:absolute;bottom:20px;left:20px;color:#fff;font-size:.88rem;font-weight:700;text-shadow:0 1px 4px rgba(0,0,0,.6)}
+.yt-container iframe{position:absolute;inset:0;width:100%;height:100%;border:none;display:none}
+.yt-container.playing .yt-facade{display:none}.yt-container.playing iframe{display:block}
+.vp-item{display:flex;gap:16px;align-items:flex-start;margin-bottom:20px}
+.vp-icon{width:48px;height:48px;border-radius:12px;background:rgba(255,255,255,.1);display:flex;align-items:center;justify-content:center;font-size:1.4rem;flex-shrink:0}
+.vp-text h4{color:var(--gold);font-size:.95rem;font-weight:700;margin-bottom:4px}.vp-text p{color:rgba(255,255,255,.72);font-size:.875rem;line-height:1.6}
+#about{background:#fff}
+.about-grid{display:grid;grid-template-columns:1.1fr 1fr;gap:48px;align-items:start;margin-top:8px}
+@media(max-width:900px){.about-grid{grid-template-columns:1fr;gap:28px}}
+.about-points{list-style:none;margin-top:26px;display:grid;gap:14px}
+.about-points li{display:flex;gap:14px;align-items:flex-start;background:var(--gray-light);border-radius:12px;padding:16px 18px}
+.about-points .ap-ic{font-size:1.3rem;line-height:1}.about-points h4{font-size:.95rem;font-weight:800;color:var(--blue-dark);margin-bottom:3px}.about-points p{font-size:.86rem;color:var(--gray);line-height:1.6}
+.about-card{background:var(--blue-dark);color:#fff;border-radius:var(--radius);padding:28px 30px;box-shadow:var(--shadow)}
+.about-card h3{font-size:1rem;font-weight:800;color:var(--gold);margin-bottom:16px;letter-spacing:.02em}
+.about-card dl{display:grid;grid-template-columns:auto 1fr;gap:12px 18px;font-size:.9rem}
+.about-card dt{color:rgba(255,255,255,.6);font-weight:600;white-space:nowrap}.about-card dd{margin:0;color:#fff;font-weight:600;line-height:1.5}
+#notice{background:var(--gray-light)}
+.notice-list{margin-top:36px;background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}
+.notice-item{display:grid;grid-template-columns:110px 70px 1fr;gap:16px;align-items:center;padding:18px 26px;border-bottom:1px solid #E8EDF3}
+.notice-item:last-child{border-bottom:none}
+.notice-date{font-size:.84rem;color:var(--gray);font-variant-numeric:tabular-nums}
+.notice-cat{display:inline-block;text-align:center;font-size:.74rem;font-weight:700;padding:4px 10px;border-radius:6px;background:var(--blue-light);color:var(--blue-dark)}
+.notice-cat.c-news{background:rgba(201,168,76,.22);color:#7a5d12}
+.notice-title{font-size:.95rem;font-weight:700;color:var(--gray-dark)}.notice-title small{display:block;font-weight:500;color:var(--gray);font-size:.82rem;margin-top:3px}
+@media(max-width:600px){.notice-item{grid-template-columns:1fr auto;gap:6px 12px;padding:16px 18px}.notice-title{grid-column:1/-1}}
+#problem{background:var(--gray-light)}
+.problem-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin-top:48px}
+.problem-card{background:#fff;border-radius:var(--radius);padding:26px 22px;box-shadow:var(--shadow);border-left:4px solid var(--blue-mid)}
+.problem-icon{font-size:1.7rem;margin-bottom:10px}.problem-card h3{font-size:.95rem;font-weight:700;color:var(--blue-dark);margin-bottom:7px}.problem-card p{font-size:.875rem;color:var(--gray)}
+#mission{background:var(--blue-dark)}
+#mission .sec-tag{color:var(--gold)}#mission .sec-title{color:#fff}#mission .sec-desc{color:rgba(255,255,255,.75)}
+.mission-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin-top:48px}
+.mc{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);border-radius:var(--radius);padding:26px 20px;transition:background .2s}.mc:hover{background:rgba(255,255,255,.12)}
+.mc-icon{font-size:1.9rem;margin-bottom:12px}.mc h3{color:var(--gold);font-size:.95rem;font-weight:700;margin-bottom:8px}.mc p{color:rgba(255,255,255,.72);font-size:.86rem}
+#program{background:#fff}
+.program-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin-top:48px}
+.track-card{border-radius:var(--radius);padding:26px 20px;position:relative;overflow:hidden;box-shadow:var(--shadow)}
+.track-card::before{content:'';position:absolute;top:0;left:0;right:0;height:4px}
+.track-a{background:#EEF4FB}.track-a::before{background:var(--blue-mid)}
+.track-b{background:#FFF8EE}.track-b::before{background:var(--gold)}
+.track-c{background:#F0FAF4}.track-c::before{background:#2E8B57}
+.track-d{background:#F7F0FB}.track-d::before{background:#7B4FAB}
+.track-label{font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:8px}
+.track-a .track-label{color:var(--blue-mid)}.track-b .track-label{color:var(--gold)}.track-c .track-label{color:#2E8B57}.track-d .track-label{color:#7B4FAB}
+.track-card h3{font-size:1rem;font-weight:700;color:var(--blue-dark);margin-bottom:8px}
+.track-card ul{list-style:none}.track-card ul li{font-size:.86rem;color:var(--gray);padding:3px 0}.track-card ul li::before{content:'→ ';opacity:.6}
+#timeline-sec{background:var(--gray-light)}
+.timeline{margin-top:48px;position:relative}.timeline::before{content:'';position:absolute;left:24px;top:0;bottom:0;width:2px;background:var(--blue-light)}
+.tl-item{display:flex;gap:22px;margin-bottom:28px;position:relative}
+.tl-dot{width:48px;height:48px;border-radius:50%;background:var(--blue-dark);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.78rem;flex-shrink:0;position:relative;z-index:1;box-shadow:0 0 0 4px var(--blue-light)}
+.tl-content{background:#fff;border-radius:var(--radius);padding:18px 22px;box-shadow:var(--shadow);flex:1}
+.tl-date{font-size:.78rem;color:var(--blue-mid);font-weight:700;margin-bottom:3px}.tl-content h3{font-size:.95rem;font-weight:700;color:var(--blue-dark)}.tl-content p{font-size:.86rem;color:var(--gray);margin-top:3px}
+#join{background:#fff}
+.forms-wrap{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:48px}
+@media(max-width:768px){.forms-wrap{grid-template-columns:1fr}}
+.form-card{background:#fff;border-radius:var(--radius);padding:34px 28px;box-shadow:var(--shadow);border-top:5px solid var(--blue-dark)}
+.form-card.partner{border-top-color:var(--gold)}
+.form-card h2{font-size:1.25rem;font-weight:800;color:var(--blue-dark);margin-bottom:5px}
+.form-card.partner h2{color:#b8952e}
+.form-desc{font-size:.86rem;color:var(--gray);margin-bottom:22px}
+.form-group{margin-bottom:14px}
+.form-group label{display:block;font-size:.8rem;font-weight:600;color:var(--blue-dark);margin-bottom:5px}
+.form-group input,.form-group select,.form-group textarea{width:100%;padding:10px 13px;border:1.5px solid #D0DFF0;border-radius:8px;font-size:.88rem;font-family:inherit;color:var(--gray-dark);transition:border-color .2s,box-shadow .2s;background:#FAFBFF}
+.form-group input:focus,.form-group select:focus,.form-group textarea:focus{outline:none;border-color:var(--blue-mid);box-shadow:0 0 0 3px rgba(46,117,182,.12)}
+.form-group textarea{resize:vertical;min-height:85px}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.form-check{display:flex;align-items:flex-start;gap:9px;margin:14px 0}
+.form-check input[type=checkbox]{width:15px;height:15px;margin-top:3px;flex-shrink:0;accent-color:var(--blue-mid)}
+.form-check label{font-size:.8rem;color:var(--gray);line-height:1.5}
+.form-check label a{color:var(--blue-mid);text-decoration:underline}
+.btn-submit{width:100%;padding:13px;background:var(--blue-dark);color:#fff;border:none;border-radius:8px;font-size:.92rem;font-weight:700;cursor:pointer;transition:background .2s,transform .15s;font-family:inherit}
+.btn-submit:hover{background:var(--blue-mid);transform:translateY(-1px)}
+.btn-submit:disabled{opacity:.6;cursor:not-allowed;transform:none}
+.form-card.partner .btn-submit{background:var(--gold);color:var(--blue-dark)}
+.form-card.partner .btn-submit:hover{background:#b8952e}
+.form-status{display:none;border-radius:8px;padding:14px 18px;font-weight:600;font-size:.88rem;text-align:center;margin-top:14px;white-space:pre-line}
+.form-status.success{background:#E2EFDA;border:1.5px solid #375623;color:#375623}
+.form-status.error{background:#FDECEA;border:1.5px solid #C00000;color:#C00000}
+.form-status.sending{background:#EEF4FB;border:1.5px solid var(--blue-mid);color:var(--blue-mid)}
+#faq{background:var(--gray-light)}
+.faq-list{margin-top:40px;display:flex;flex-direction:column;gap:10px}
+.faq-item{background:#fff;border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}
+.faq-q{padding:18px 22px;font-weight:700;font-size:.92rem;color:var(--blue-dark);cursor:pointer;display:flex;justify-content:space-between;align-items:center;user-select:none}
+.faq-q::after{content:'+';font-size:1.3rem;color:var(--blue-mid);transition:transform .2s}
+.faq-item.open .faq-q::after{transform:rotate(45deg)}
+.faq-a{display:none;padding:14px 22px 18px;font-size:.875rem;color:var(--gray);border-top:1px solid var(--blue-light)}
+.faq-item.open .faq-a{display:block}
+footer{background:#0a1e30;color:rgba(255,255,255,.65);padding:56px 5% 30px}
+.footer-inner{max-width:1140px;margin:0 auto}
+.footer-top{display:grid;grid-template-columns:2fr 1fr 1fr;gap:40px;margin-bottom:40px}
+@media(max-width:768px){.footer-top{grid-template-columns:1fr;gap:24px}}
+.footer-brand h3{color:#fff;font-size:1.1rem;font-weight:800;margin-bottom:8px}.footer-brand h3 span{color:var(--gold)}
+.footer-brand p{font-size:.86rem;line-height:1.7}
+.footer-col h4{color:#fff;font-size:.88rem;font-weight:700;margin-bottom:12px}
+.footer-col ul{list-style:none}.footer-col ul li{margin-bottom:7px}.footer-col ul li a{color:rgba(255,255,255,.6);text-decoration:none;font-size:.86rem;transition:color .2s}.footer-col ul li a:hover{color:var(--gold)}
+.footer-orgs{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin:-8px 0 26px}.footer-orgs-label{color:#fff;font-size:.86rem;font-weight:700;margin-right:6px}.footer-orgs a{display:inline-flex;align-items:center;gap:6px;padding:8px 16px;border:1px solid rgba(255,255,255,.18);border-radius:999px;color:rgba(255,255,255,.75);text-decoration:none;font-size:.84rem;transition:all .2s}.footer-orgs a:hover{border-color:var(--gold);color:var(--gold)}
+.footer-divider{border:none;border-top:1px solid rgba(255,255,255,.08);margin-bottom:22px}
+.footer-bottom{display:flex;justify-content:space-between;font-size:.78rem;flex-wrap:wrap;gap:10px}
+.footer-bottom a{color:rgba(255,255,255,.45);text-decoration:none}
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .6s ease,transform .6s ease}
+.reveal.visible{opacity:1;transform:none}
+#toast{position:fixed;bottom:28px;left:50%;transform:translateX(-50%) translateY(80px);background:#1F4E79;color:#fff;padding:13px 26px;border-radius:8px;font-size:.875rem;font-weight:600;box-shadow:0 8px 32px rgba(0,0,0,.25);transition:transform .35s ease;z-index:999;white-space:nowrap}
+#toast.show{transform:translateX(-50%) translateY(0)}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-logo">Next<span>Players</span></div>
+  <div class="nav-links">
+    <a href="#about">법인 소개</a><a href="#sports">대상</a><a href="#journey">여정</a>
+    <a href="#video-section">영상</a><a href="#program">프로그램</a>
+    <a href="#join">참여</a><a href="#notice">알림마당</a><a href="#faq">FAQ</a>
+  </div>
+  <a href="#join" class="nav-cta">참여하기 →</a>
+</nav>
+
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div>
+      <div class="hero-badge">⚡ 사단법인 설립 추진 중 · 2026</div>
+      <h1 class="hero-title">선수의 도전은<br><em>은퇴 후에도</em><br>계속됩니다</h1>
+      <p class="hero-sub">연간 3,000명 이상의 엘리트 선수가 은퇴합니다.<br>그러나 이들을 위한 체계적 지원은 없습니다.<br><strong>넥스트플레이어스</strong>가 함께합니다.</p>
+      <div class="hero-btns">
+        <a href="#join" class="btn-primary">🏃 선수 사전등록</a>
+        <a href="#join" class="btn-secondary">🤝 기업 파트너 문의</a>
+      </div>
+      <div style="display:flex;gap:10px;flex-wrap:wrap">
+        <button class="kakao-btn" onclick="shareKakao()">
+          <svg width="17" height="17" viewBox="0 0 18 18"><path d="M9 1.5C4.86 1.5 1.5 4.16 1.5 7.44c0 2.09 1.32 3.93 3.3 5.01l-.84 3.13a.28.28 0 0 0 .43.3L8.1 13.4c.29.03.59.04.9.04 4.14 0 7.5-2.66 7.5-5.94C16.5 4.16 13.14 1.5 9 1.5Z" fill="#3A1D1D"/></svg>
+          카카오톡 공유
+        </button>
+        <button class="copy-btn" onclick="copyLink()">🔗 링크 복사</button>
+      </div>
+    </div>
+    <figure class="hero-photo">
+      <img src="hero-group.jpg" alt="2026 넥스트플레이어스 발기인총회 단체사진 (2026.11.7.)" width="1400" height="540">
+      <figcaption>2026. 11. 7. 넥스트플레이어스 발기인총회</figcaption>
+    </figure>
+  </div>
+  <div class="share-bar">
+    <span class="share-bar-label">📣 주변 선수·관계자에게 알려주세요</span>
+    <button class="kakao-btn" onclick="shareKakao()">
+      <svg width="16" height="16" viewBox="0 0 18 18"><path d="M9 1.5C4.86 1.5 1.5 4.16 1.5 7.44c0 2.09 1.32 3.93 3.3 5.01l-.84 3.13a.28.28 0 0 0 .43.3L8.1 13.4c.29.03.59.04.9.04 4.14 0 7.5-2.66 7.5-5.94C16.5 4.16 13.14 1.5 9 1.5Z" fill="#3A1D1D"/></svg>
+      카카오톡 공유
+    </button>
+    <button class="copy-btn" onclick="copyLink()">🔗 링크 복사</button>
+  </div>
+  <div class="hero-stats">
+    <div class="hero-stat"><div class="num">3,000+</div><div class="lbl">연간 은퇴 선수 (추정)</div></div>
+    <div class="hero-stat"><div class="num">27세</div><div class="lbl">평균 은퇴 연령</div></div>
+    <div class="hero-stat"><div class="num">70%</div><div class="lbl">3년차 취업·창업 목표</div></div>
+    <div class="hero-stat"><div class="num">500명</div><div class="lbl">연간 수료 목표 (3년차)</div></div>
+  </div>
+</section>
+
+<section id="about"><div class="sec-inner">
+  <div class="about-grid">
+    <div class="reveal">
+      <div class="sec-tag">법인 소개</div>
+      <h2 class="sec-title">넥스트플레이어스</h2>
+      <p class="sec-desc">은퇴 체육인이 선수 시절의 역량을 바탕으로 새로운 직업과 삶에 안정적으로 정착할 수 있도록 돕는 비영리법인입니다.</p>
+      <ul class="about-points">
+        <li><span class="ap-ic">🎯</span><div><h4>설립 취지</h4><p>체계적인 지원이 부족한 은퇴 체육인의 진로 공백을 메우고, 선수 경험이 사회의 자산이 되도록 합니다.</p></div></li>
+        <li><span class="ap-ic">🤝</span><div><h4>주요 활동</h4><p>진로 탐색·교육훈련, 취업·창업 연계, 심리·복지 상담, 정책 연구를 함께 추진합니다.</p></div></li>
+      </ul>
+    </div>
+    <div class="about-card reveal">
+      <h3>법인 개요</h3>
+      <dl>
+        <dt>법인명</dt><dd>넥스트플레이어스 (Next Players)</dd>
+        <dt>이사장</dt><dd>이창섭</dd>
+        <dt>부이사장 겸 상임이사</dt><dd>김병태</dd>
+        <dt>사무국장</dt><dd>최미영</dd>
+        <dt>주무관청</dt><dd>대전광역시</dd>
+        <dt>소재지</dt><dd>대전광역시 유성구 대학로 28,<br>홍인오피스텔 1517호</dd>
+        <dt>이메일</dt><dd>next0345@naver.com</dd>
+      </dl>
+    </div>
+  </div>
+</div></section>
+
+<section id="sports"><div class="sec-inner">
+  <div class="reveal">
+    <div class="sec-tag">누구를 위한 법인인가요</div>
+    <h2 class="sec-title">모든 종목의 엘리트 선수를 지원합니다</h2>
+    <p class="sec-desc">국가대표뿐 아니라 학원스포츠·실업팀·아마추어 엘리트 선수 모두가 대상입니다.</p>
+  </div>
+  <div class="sports-grid">
+    <div class="sport-card reveal"><div class="s-badge">인기 종목</div><div class="sport-img" style="background-image:url('https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=400&h=200&fit=crop&q=80')"></div><div class="sport-info"><h3>⚽ 축구</h3><p>K리그·세미프로·대학리그 은퇴 선수</p></div></div>
+    <div class="sport-card reveal"><div class="sport-img" style="background-image:url('https://images.unsplash.com/photo-1530549387789-4c1017266635?w=400&h=200&fit=crop&q=80')"></div><div class="sport-info"><h3>🏊 수영</h3><p>전국대회·실업 수영팀 은퇴 선수</p></div></div>
+    <div class="sport-card reveal"><div class="sport-img" style="background-image:url('https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=400&h=200&fit=crop&q=80')"></div><div class="sport-info"><h3>🏃 육상</h3><p>마라톤·단거리·트랙 종목 선수</p></div></div>
+    <div class="sport-card reveal"><div class="sport-img" style="background-image:url('https://images.unsplash.com/photo-1546519638-68e109498ffc?w=400&h=200&fit=crop&q=80')"></div><div class="sport-info"><h3>🏀 농구</h3><p>KBL·WKBL·대학 농구 은퇴 선수</p></div></div>
+    <div class="sport-card reveal"><div class="sport-img" style="background-image:url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=200&fit=crop&q=80')"></div><div class="sport-info"><h3>🤸 체조·무도</h3><p>태권도·유도·씨름·체조 선수</p></div></div>
+    <div class="sport-card reveal"><div class="sport-img" style="background-image:url('https://images.unsplash.com/photo-1484424987098-b8c5079edd83?w=400&h=200&fit=crop&q=80')"></div><div class="sport-info"><h3>🏐 구기 종목</h3><p>배구·배드민턴·탁구·핸드볼</p></div></div>
+  </div>
+</div></section>
+
+<section id="journey"><div class="sec-inner">
+  <div class="reveal" style="text-align:center">
+    <div class="sec-tag" style="text-align:center">어떻게 변화하나요</div>
+    <h2 class="sec-title" style="text-align:center">은퇴 → 교육 → 새로운 시작</h2>
+  </div>
+  <div class="journey-steps">
+    <div class="j-step reveal"><div class="j-img-wrap"><img src="https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=400&h=400&fit=crop&q=80" alt="선수 시절"><div class="j-num n1">1</div></div><h3>선수 은퇴</h3><p>평균 27~33세, 준비 없이 맞이하는 조기 은퇴. 진로 공백과 정체성 혼란이 시작됩니다.</p></div>
+    <div class="j-step reveal"><div class="j-img-wrap" style="border-color:var(--gold)"><img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=400&h=400&fit=crop&q=80" alt="교육 과정"><div class="j-num n2">2</div></div><h3>넥스트플레이어스 지원</h3><p>진로 탐색 → 트랙별 교육(12주) → 현장실습 → 심리 상담까지 일대일 맞춤 지원.</p></div>
+    <div class="j-step reveal"><div class="j-img-wrap" style="border-color:#2E8B57"><img src="https://images.unsplash.com/photo-1552581234-26160f608093?w=400&h=400&fit=crop&q=80" alt="새로운 커리어"><div class="j-num n3">3</div></div><h3>제2커리어 출발</h3><p>코치·창업·기업취업·미디어 등 나에게 맞는 새 직업으로 당당하게 사회에 복귀합니다.</p></div>
+  </div>
+</div></section>
+
+<section id="video-section"><div class="sec-inner">
+  <div class="reveal"><div class="sec-tag">영상으로 보기</div><h2 class="sec-title">3분으로 이해하는 넥스트플레이어스</h2></div>
+  <div class="video-wrap">
+    <div class="yt-container reveal" id="ytBox">
+      <div class="yt-facade" onclick="playVideo()">
+        <div class="yt-play"><svg width="28" height="28" viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21" fill="#1F4E79"/></svg></div>
+        <div class="yt-label">▶ 설립 추진 소개 영상</div>
+      </div>
+      <iframe id="ytFrame" src="" title="넥스트플레이어스 소개" allow="autoplay;encrypted-media" allowfullscreen></iframe>
+    </div>
+    <div>
+      <div class="vp-item reveal"><div class="vp-icon">🎬</div><div class="vp-text"><h4>우리가 해결하는 문제</h4><p>연간 3,000명 은퇴 선수 중 절반이 5년 내 안정적 직업을 갖지 못하는 현실을 영상으로 확인하세요.</p></div></div>
+      <div class="vp-item reveal"><div class="vp-icon">🌟</div><div class="vp-text"><h4>실제 선수들의 이야기</h4><p>은퇴 후 PT 센터·유튜브·스포츠 브랜드 창업에 성공한 선수들의 변화를 만나보세요.</p></div></div>
+      <div class="vp-item reveal"><div class="vp-icon">🏗️</div><div class="vp-text"><h4>설립 추진 과정 공유</h4><p>넥스트플레이어스의 법인 설립 준비 과정을 투명하게 공개합니다.</p></div></div>
+      <button class="kakao-btn" onclick="shareKakao()" style="width:100%;justify-content:center;margin-top:8px">
+        <svg width="18" height="18" viewBox="0 0 18 18"><path d="M9 1.5C4.86 1.5 1.5 4.16 1.5 7.44c0 2.09 1.32 3.93 3.3 5.01l-.84 3.13a.28.28 0 0 0 .43.3L8.1 13.4c.29.03.59.04.9.04 4.14 0 7.5-2.66 7.5-5.94C16.5 4.16 13.14 1.5 9 1.5Z" fill="#3A1D1D"/></svg>
+        이 페이지 카카오톡으로 공유하기
+      </button>
+    </div>
+  </div>
+</div></section>
+
+<section id="problem"><div class="sec-inner">
+  <div class="reveal"><div class="sec-tag">왜 넥스트플레이어스인가</div><h2 class="sec-title">엘리트 선수,<br>은퇴 후엔 사각지대입니다</h2></div>
+  <div class="problem-grid">
+    <div class="problem-card reveal"><div class="problem-icon">⏰</div><h3>조기 은퇴 (평균 27~33세)</h3><p>사회 경험 없이 맞이하는 조기 은퇴. 직업 준비 없이 선수 생활이 끝납니다.</p></div>
+    <div class="problem-card reveal"><div class="problem-icon">🚫</div><h3>지원 사각지대</h3><p>국민체육진흥공단·프로스포츠협회 지원은 국가대표·4대 프로리그 중심. 일반 엘리트 선수는 공적 지원 전무.</p></div>
+    <div class="problem-card reveal"><div class="problem-icon">💸</div><h3>경제적 불안</h3><p>은퇴 후 5년 내 안정적 직업을 갖지 못하는 선수가 절반 이상으로 추정됩니다.</p></div>
+    <div class="problem-card reveal"><div class="problem-icon">🧠</div><h3>정체성 혼란</h3><p>선수라는 정체성 상실로 인한 우울·심리적 위기. 체계적 상담 지원이 없는 현실.</p></div>
+    <div class="problem-card reveal"><div class="problem-icon">🔗</div><h3>역량 연결 실패</h3><p>도전정신·끈기·팀워크 등 선수의 강점이 사회 자산으로 연결되지 못하는 구조적 공백.</p></div>
+    <div class="problem-card reveal"><div class="problem-icon">🏗️</div><h3>전담 기관 부재</h3><p>단편적·종목별 지원에 그치고, 연속성 있는 전담 독립 기관이 존재하지 않습니다.</p></div>
+  </div>
+</div></section>
+
+<section id="mission"><div class="sec-inner">
+  <div class="reveal"><div class="sec-tag">미션 & 비전</div><h2 class="sec-title">우리는 이렇게 돕습니다</h2><p class="sec-desc">교육·훈련·매칭·창업 지원의 4단계 체계로 선수 한 명 한 명의 제2커리어를 설계합니다.</p></div>
+  <div class="mission-cards">
+    <div class="mc reveal"><div class="mc-icon">📚</div><h3>교육·훈련</h3><p>기초 4주 + 심화 트랙 8주 + 현장실습 4~8주. 온·오프라인 병행 운영.</p></div>
+    <div class="mc reveal"><div class="mc-icon">🔍</div><h3>취업·창업 매칭</h3><p>기업 파트너 네트워크 기반 취업 연계, 연 2회 잡페어, 창업 공모전 및 초기 자금 연결.</p></div>
+    <div class="mc reveal"><div class="mc-icon">💬</div><h3>심리·복지 상담</h3><p>전문 심리상담사 연계, 생애설계 워크숍, 동문 커뮤니티 운영으로 정서적 안전망 구축.</p></div>
+    <div class="mc reveal"><div class="mc-icon">📊</div><h3>정책 개발·연구</h3><p>실태조사 연구보고서 연간 발행, 문체부 정책 제언, 해외 기관 국제 파트너십 추진.</p></div>
+  </div>
+</div></section>
+
+<section id="program"><div class="sec-inner">
+  <div class="reveal"><div class="sec-tag">교육 프로그램</div><h2 class="sec-title">4개 트랙, 나에게 맞는 길을 찾습니다</h2></div>
+  <div class="program-grid">
+    <div class="track-card track-a reveal"><div class="track-label">Track A</div><h3>스포츠·교육·코칭</h3><ul><li>생활체육 지도자 자격 취득</li><li>퍼스널트레이닝(PT) 실무</li><li>청소년 스포츠 코치</li><li>체육 시설 창업 실습</li></ul></div>
+    <div class="track-card track-b reveal"><div class="track-label">Track B</div><h3>스포츠 비즈니스·미디어</h3><ul><li>스포츠 마케팅·에이전트</li><li>유튜브/SNS 채널 운영</li><li>스포츠 콘텐츠 기획</li><li>온라인 판매 실습</li></ul></div>
+    <div class="track-card track-c reveal"><div class="track-label">Track C</div><h3>건강·웰니스·재활</h3><ul><li>스포츠 재활 트레이너</li><li>영양학 기초 및 건강 코칭</li><li>스포츠 심리 상담 기초</li><li>웰니스 센터 창업</li></ul></div>
+    <div class="track-card track-d reveal"><div class="track-label">Track D</div><h3>기업 취업·공공 행정</h3><ul><li>기업 영업·마케팅 직무</li><li>스포츠 행정(지자체)</li><li>물류·현장 관리</li><li>공기업·공무직 시험 준비</li></ul></div>
+  </div>
+</div></section>
+
+<section id="timeline-sec"><div class="sec-inner">
+  <div class="reveal"><div class="sec-tag">설립 추진 일정</div><h2 class="sec-title">2027년 공식 운영 시작을 목표로 합니다</h2></div>
+  <div class="timeline">
+    <div class="tl-item reveal"><div class="tl-dot">07</div><div class="tl-content"><div class="tl-date">2026년 7월 ~ 9월</div><h3>법인명 확정 &amp; 발기인 모집</h3></div></div>
+    <div class="tl-item reveal"><div class="tl-dot">10</div><div class="tl-content"><div class="tl-date">2026년 10월</div><h3>발기인총회 &amp; 설립인가 준비</h3></div></div>
+    <div class="tl-item reveal"><div class="tl-dot">11</div><div class="tl-content"><div class="tl-date">2026년 11월</div><h3>법인설립 허가신청</h3></div></div>
+    <div class="tl-item reveal"><div class="tl-dot">12</div><div class="tl-content"><div class="tl-date">2026년 12월 ~ 2027년 1월</div><h3>파일럿 프로그램 운영</h3></div></div>
+    <div class="tl-item reveal"><div class="tl-dot">01</div><div class="tl-content"><div class="tl-date">2027년 1월</div><h3>사단법인 설립인가 &amp; 법인등록 완료</h3></div></div>
+    <div class="tl-item reveal"><div class="tl-dot">01</div><div class="tl-content"><div class="tl-date">2027년 1월</div><h3>공익법인 신청</h3></div></div>
+  </div>
+</div></section>
+
+<section id="join"><div class="sec-inner">
+  <div class="reveal" style="text-align:center">
+    <div class="sec-tag" style="text-align:center">함께해 주세요</div>
+    <h2 class="sec-title" style="text-align:center">지금 참여 신청하세요</h2>
+    <p class="sec-desc" style="text-align:center;margin:0 auto 0">작성하신 내용은 구글 스프레드시트에 자동 저장되고, 담당자에게 이메일로 즉시 전달됩니다.</p>
+  </div>
+  <div class="forms-wrap">
+    <div class="form-card reveal">
+      <h2>🏃 선수 사전등록</h2>
+      <p class="form-desc">프로그램 출시 시 우선 안내와 초기 할인 혜택을 받으세요. (은퇴 예정 현역 포함)</p>
+      <form id="athleteForm" onsubmit="submitForm(event,'athlete')">
+        <div class="form-row">
+          <div class="form-group"><label>성함 *</label><input name="name" type="text" required placeholder="홍길동"></div>
+          <div class="form-group"><label>연락처 *</label><input name="phone" type="tel" required placeholder="010-0000-0000"></div>
+        </div>
+        <div class="form-group"><label>이메일</label><input name="email" type="email" placeholder="example@email.com"></div>
+        <div class="form-row">
+          <div class="form-group"><label>종목 *</label><input name="sport" type="text" required placeholder="예: 태권도, 수영"></div>
+          <div class="form-group"><label>선수 경력</label>
+            <select name="career"><option value="">선택</option><option>현역 (은퇴 준비 중)</option><option>은퇴 1년 이내</option><option>은퇴 1~3년</option><option>은퇴 3년 이상</option></select>
+          </div>
+        </div>
+        <div class="form-group"><label>관심 트랙</label>
+          <select name="track"><option value="">선택 (선택사항)</option><option>A. 스포츠·교육·코칭</option><option>B. 스포츠 비즈니스·미디어</option><option>C. 건강·웰니스·재활</option><option>D. 기업 취업·공공 행정</option><option>아직 모르겠음</option></select>
+        </div>
+        <div class="form-group"><label>하고 싶은 말 (선택)</label><textarea name="message" placeholder="현재 상황이나 궁금한 점을 자유롭게 적어주세요."></textarea></div>
+        <div class="form-check"><input type="checkbox" id="a_agree" required><label for="a_agree">수집된 정보는 사업 안내 목적으로만 사용되며, 개인정보 처리방침에 동의합니다.</label></div>
+        <button type="submit" class="btn-submit">사전등록 신청하기</button>
+        <div class="form-status" id="status_athlete"></div>
+      </form>
+    </div>
+    <div class="form-card partner reveal">
+      <h2>🤝 기업 파트너 문의</h2>
+      <p class="form-desc">채용 협약·인턴십·후원 등 다양한 파트너십을 제안해 주세요.</p>
+      <form id="partnerForm" onsubmit="submitForm(event,'partner')">
+        <div class="form-row">
+          <div class="form-group"><label>담당자 성함 *</label><input name="name" type="text" required placeholder="홍길동"></div>
+          <div class="form-group"><label>직책</label><input name="title" type="text" placeholder="예: 인사팀 과장"></div>
+        </div>
+        <div class="form-group"><label>회사명 *</label><input name="company" type="text" required placeholder="주식회사 ○○○"></div>
+        <div class="form-row">
+          <div class="form-group"><label>이메일 *</label><input name="email" type="email" required placeholder="hr@company.com"></div>
+          <div class="form-group"><label>연락처 *</label><input name="phone" type="tel" required placeholder="02-0000-0000"></div>
+        </div>
+        <div class="form-group"><label>파트너십 유형</label>
+          <select name="partnership"><option value="">선택</option><option>Gold — 채용 협약 (연 500만원)</option><option>Silver — 인턴십 협약 (연 200만원)</option><option>Bronze — 네트워크 협약 (연 100만원)</option><option>후원·협찬 (별도 협의)</option><option>기타 (문의)</option></select>
+        </div>
+        <div class="form-group"><label>문의 내용 *</label><textarea name="message" required placeholder="파트너십 관련 문의, 채용 규모, 희망 트랙 등을 적어주세요."></textarea></div>
+        <div class="form-check"><input type="checkbox" id="p_agree" required><label for="p_agree">수집된 정보는 파트너십 안내 목적으로만 사용되며, 개인정보 처리방침에 동의합니다.</label></div>
+        <button type="submit" class="btn-submit">파트너십 문의하기</button>
+        <div class="form-status" id="status_partner"></div>
+      </form>
+    </div>
+  </div>
+</div></section>
+
+<section id="notice"><div class="sec-inner">
+  <div class="reveal"><div class="sec-tag">알림마당</div><h2 class="sec-title">넥스트플레이어스 소식</h2></div>
+  <div class="notice-list reveal">
+    <div class="notice-item"><span class="notice-date">2026. 11. 26.</span><span class="notice-cat">공지</span><div class="notice-title">홈페이지 새 주소 오픈<small>www.넥스트플레이어스.com 으로 접속하실 수 있습니다.</small></div></div>
+    <div class="notice-item"><span class="notice-date">2026. 11.</span><span class="notice-cat c-news">소식</span><div class="notice-title">법인설립 허가신청<small>주무관청 대전광역시에 사단법인 설립허가를 신청합니다.</small></div></div>
+    <div class="notice-item"><span class="notice-date">2026. 11. 7.</span><span class="notice-cat c-news">소식</span><div class="notice-title">발기인총회 개최<small>정관을 확정하고 임원을 선출했습니다.</small></div></div>
+  </div>
+</div></section>
+
+<section id="faq"><div class="sec-inner">
+  <div class="reveal"><div class="sec-tag">자주 묻는 질문</div><h2 class="sec-title">궁금한 점이 있으신가요?</h2></div>
+  <div class="faq-list">
+    <div class="faq-item reveal"><div class="faq-q" onclick="toggleFaq(this)">지원 대상이 국가대표 선수에만 한정되나요?</div><div class="faq-a">아닙니다. 학원스포츠·실업팀·아마추어 엘리트 선수 등 기존 공적 지원에서 소외된 일반 엘리트 선수를 핵심 대상으로 합니다.</div></div>
+    <div class="faq-item reveal"><div class="faq-q" onclick="toggleFaq(this)">프로그램 수강료가 있나요?</div><div class="faq-a">설립 초기(1~2년차)에는 법인 보조로 수강료 없이 운영을 목표로 합니다. 이후 단계적으로 수강료(기초 30만원·심화 50만원 수준)가 도입되되, 저소득 선수를 위한 장학 제도를 병행합니다.</div></div>
+    <div class="faq-item reveal"><div class="faq-q" onclick="toggleFaq(this)">현역 선수도 사전등록이 가능한가요?</div><div class="faq-a">네, 가능합니다. 은퇴를 준비 중인 현역 선수도 준회원으로 등록하여 기초 진로 상담 및 정보 제공을 받을 수 있습니다.</div></div>
+    <div class="faq-item reveal"><div class="faq-q" onclick="toggleFaq(this)">지방에 거주하는 선수도 참여할 수 있나요?</div><div class="faq-a">모든 교육 과정을 온·오프라인 병행으로 운영합니다. 지방 거점센터는 2027년 하반기부터 단계적으로 개소하며, 그 전에도 온라인으로 전 과정 참여가 가능합니다.</div></div>
+    <div class="faq-item reveal"><div class="faq-q" onclick="toggleFaq(this)">기업 파트너십은 어떤 혜택이 있나요?</div><div class="faq-a">Gold(채용 협약·연 500만원), Silver(인턴십·연 200만원), Bronze(네트워크·연 100만원) 3등급으로 운영됩니다. 잡페어 부스, 선수 인재 추천, CSR 보고서 활용권, 홍보 노출 등의 혜택이 제공됩니다.</div></div>
+  </div>
+</div></section>
+
+<footer><div class="footer-inner">
+  <div class="footer-top">
+    <div class="footer-brand"><h3>Next<span>Players</span></h3><p>넥스트플레이어스<br>선수의 도전은 은퇴 후에도 계속됩니다.<br>Athletes Beyond the Game</p><p style="margin-top:14px">📧 next0345@naver.com</p></div>
+    <div class="footer-col"><h4>바로가기</h4><ul><li><a href="#about">법인 소개</a></li><li><a href="#sports">대상 종목</a></li><li><a href="#journey">변화의 여정</a></li><li><a href="#video-section">소개 영상</a></li><li><a href="#program">교육 프로그램</a></li><li><a href="#join">참여 신청</a></li><li><a href="#notice">알림마당</a></li><li><a href="#faq">FAQ</a></li></ul></div>
+    <div class="footer-col"><h4>제출처</h4><ul><li><a href="https://www.daejeon.go.kr" target="_blank" rel="noopener">대전광역시</a></li></ul><h4 style="margin-top:18px">제출일</h4><ul><li style="font-size:.86rem;color:rgba(255,255,255,.6)">2026년 11월</li></ul></div>
+  </div>
+  <div class="footer-orgs">
+    <span class="footer-orgs-label">관련 기관</span>
+    <a href="https://www.nts.go.kr" target="_blank" rel="noopener">국세청 <span aria-hidden="true">↗</span></a>
+    <a href="https://www.mcst.go.kr" target="_blank" rel="noopener">문화체육관광부 <span aria-hidden="true">↗</span></a>
+    <a href="https://www.daejeon.go.kr" target="_blank" rel="noopener">대전광역시 <span aria-hidden="true">↗</span></a>
+  </div>
+  <hr class="footer-divider">
+  <div class="footer-bottom"><span>© 2026 넥스트플레이어스. All rights reserved.</span><div style="display:flex;gap:16px"><a href="#">개인정보 처리방침</a><a href="admin.html" style="color:rgba(255,255,255,.25);font-size:.72rem">관리자</a></div></div>
+</div></footer>
+
+<div id="toast"></div>
+
+<script>
+const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbylfuB44xXKwHls-k7leGXj_hSqBciOzjqQeqLrXtv3qUHTF7GZD5id5luYqDslAla2/exec';
+const KAKAO_JS_KEY = 'YOUR_KAKAO_JS_KEY';
+const YT_VIDEO_ID = 'YOUR_VIDEO_ID';
+
+window.addEventListener('DOMContentLoaded', function() {
+  if (typeof Kakao !== 'undefined' && KAKAO_JS_KEY !== 'YOUR_KAKAO_JS_KEY') { Kakao.init(KAKAO_JS_KEY); }
+  var obs = new IntersectionObserver(function(entries) {
+    entries.forEach(function(e) { if (e.isIntersecting) e.target.classList.add('visible'); });
+  }, { threshold: 0.1 });
+  document.querySelectorAll('.reveal').forEach(function(r) { obs.observe(r); });
+});
+
+async function submitForm(e, type) {
+  e.preventDefault();
+  var form = e.target, btn = form.querySelector('.btn-submit');
+  var statusEl = document.getElementById('status_' + type);
+  btn.disabled = true; btn.textContent = '전송 중...';
+  showStatus(statusEl, 'sending', '⏳ 전송 중입니다...');
+  var payload = { type: type };
+  new FormData(form).forEach(function(v, k) { payload[k] = v; });
+  try {
+    await fetch(APPS_SCRIPT_URL, { method:'POST', mode:'no-cors', headers:{'Content-Type':'application/json'}, body:JSON.stringify(payload) });
+    form.reset();
+    showStatus(statusEl, 'success', type==='athlete' ? '✅ 사전등록이 완료되었습니다!\n프로그램 출시 시 가장 먼저 안내드리겠습니다.' : '✅ 파트너십 문의가 접수되었습니다!\n영업일 기준 2일 이내 담당자가 연락드리겠습니다.');
+    showToast('✅ 제출 완료!');
+    setTimeout(function() { statusEl.style.display='none'; }, 8000);
+  } catch(err) {
+    showStatus(statusEl, 'error', '❌ 오류가 발생했습니다. 잠시 후 다시 시도해 주세요.');
+  }
+  btn.disabled = false;
+  btn.textContent = type==='athlete' ? '사전등록 신청하기' : '파트너십 문의하기';
+}
+
+function showStatus(el, cls, msg) { el.className='form-status '+cls; el.style.display='block'; el.textContent=msg; }
+
+function playVideo() {
+  if (YT_VIDEO_ID==='YOUR_VIDEO_ID') { alert('유튜브 영상 ID를 설정해 주세요.'); return; }
+  document.getElementById('ytFrame').src='https://www.youtube.com/embed/'+YT_VIDEO_ID+'?autoplay=1&rel=0';
+  document.getElementById('ytBox').classList.add('playing');
+}
+
+function shareKakao() {
+  if (typeof Kakao==='undefined'||!Kakao.isInitialized()) { alert('링크 복사 버튼을 이용해 주세요.'); return; }
+  Kakao.Share.sendDefault({ objectType:'feed', content:{ title:'넥스트플레이어스', description:'선수의 도전은 은퇴 후에도 계속됩니다. 은퇴 체육인의 제2커리어를 지원합니다.', imageUrl:new URL('og-image.png', location.href).href, link:{mobileWebUrl:location.href,webUrl:location.href} }, buttons:[{title:'🏃 선수 사전등록',link:{mobileWebUrl:location.href+'#join',webUrl:location.href+'#join'}},{title:'🤝 기업 파트너 문의',link:{mobileWebUrl:location.href+'#join',webUrl:location.href+'#join'}}] });
+}
+
+function copyLink() {
+  var url=location.href;
+  if (navigator.clipboard) { navigator.clipboard.writeText(url).then(function(){ showToast('🔗 링크가 복사되었습니다!'); }); }
+  else { var el=document.createElement('input'); el.value=url; document.body.appendChild(el); el.select(); document.execCommand('copy'); document.body.removeChild(el); showToast('🔗 링크가 복사되었습니다!'); }
+}
+
+function showToast(msg) { var t=document.getElementById('toast'); t.textContent=msg; t.classList.add('show'); setTimeout(function(){ t.classList.remove('show'); },3500); }
+function toggleFaq(el) { el.parentElement.classList.toggle('open'); }
+</script>
+</body>
+</html>
